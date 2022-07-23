@@ -1,0 +1,95 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 6fr 2fr;
+    grid-column-gap: 0px;
+
+    margin: 0;
+}
+
+html {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Lobster', cursive;
+    height: 100vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+    flex-direction: row;
+
+
+}
+
+li {
+    margin: 1rem;
+}
+
+
+
+#navbar {
+    background-color: #e8c0f1;
+    font-size: 1.5rem;
+}
+
+#welcome-section {
+    background-color: white;
+    text-align: center;
+}
+
+#projects {
+    background-color: #37008b;
+    text-align: center;
+}
+
+#contact {
+    background-color: #e8c0f1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{text-decoration: none;
+color: black;}
+
+
+.git {
+    font-size: 2rem;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    display: block;
+}
+
+#contact p {
+    font-size: 2rem;
+}
+
+#navbar {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 600px) {}
+
+;
