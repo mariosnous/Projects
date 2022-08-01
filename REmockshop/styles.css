@@ -1,0 +1,84 @@
+body{display: block;
+    font-family:'resident_evil_3_remake_fontRg';
+font-size:2rem;}
+
+img{width:79rem;
+margin-top: 3rem;}
+html{background-color:black;
+color:white;}
+
+iframe{
+   
+    margin-left:22rem;
+    display:block;
+    margin-bottom:20rem;
+
+}
+
+
+header{display:flex;
+justify-content: space-between;
+align-items:center;
+flex-direction:column;}
+
+header nav{display:flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: flex-end;
+    order: -1;
+;}
+header h2{font-size:1rem;
+}
+span{color:red;}
+
+@font-face {
+    font-family: 'resident_evil_3_remake_fontRg';
+    src: url('resident_evil_3_remake_font_by_snakeyboy_ddovswe-webfont.woff2') format('woff2'),
+         url('resident_evil_3_remake_font_by_snakeyboy_ddovswe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#games{
+    display: grid;
+grid-template-columns: repeat(3, 2fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 2px;
+grid-row-gap: 1px;
+margin-top: 15rem;
+
+
+}
+
+ul img{width:11rem;
+height:18rem;
+border-radius: 10px;
+border:3px solid white;}
+
+a{color: white;}
+
+
+@media only screen and (max-width: 600px){html {background-color:#050533;
+    color:white;
+
+
+}}
+
+
+h2{text-align: center;}
+
+
+.nav-link:hover{background-color: red;
+color: white;
+border-radius:6px;}
+
+
+li{list-style: none;}
+#home{font-size:10rem;}
+
+#submit{background-color: black;
+color:white;
+border-radius:5px;
+border:1px solid white;}
