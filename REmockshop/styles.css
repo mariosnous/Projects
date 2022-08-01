@@ -34,8 +34,8 @@ span{color:red;}
 
 @font-face {
     font-family: 'resident_evil_3_remake_fontRg';
-    src: url('resident_evil_3_remake_font_by_snakeyboy_ddovswe-webfont.woff2') format('woff2'),
-         url('resident_evil_3_remake_font_by_snakeyboy_ddovswe-webfont.woff') format('woff');
+    src: url('resident_evil_3_remake_font_by_snakeyboy_ddovswe.woff2') format('woff2');
+         
     font-weight: normal;
     font-style: normal;
 
@@ -53,7 +53,7 @@ margin-top: 15rem;
 }
 
 ul img{width:11rem;
-height:18rem;
+height:15rem;
 border-radius: 10px;
 border:3px solid white;}
 
@@ -83,8 +83,4 @@ color:white;
 border-radius:5px;
 border:1px solid white;}
 
-#nav-bar {
-    position: fixed;
-    
-   
-  }
+
