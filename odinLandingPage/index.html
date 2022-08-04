@@ -2,52 +2,70 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gourmet</title>
 </head>
 
 <body>
-    <header class="logo"></header>
-    <!--logo section-->
+    <div class="parent">
+        <div class="div1">
+            <header class="top">Gourmet Catering
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#container">Products</a></li>
+                        <li><a href="#container2">Sign-Up</a></li>
+                    </ul>
 
-    
+                </nav>
+            </header>
+            <!--logo section-->
 
+            <h1 id="home">Gourmet Catering Services</h1>
+            <p class="para">Have a Look and subscribe</p>
+            
+            
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="Place e-mail here" required>
+            <input type="submit" id="submit" value="submit"></input>
+        </form>
 
-    <section id="home">
-        <h1>This Website is awesome</h1>
-        <h5>Take a Look</h5>
-        <button type="submit">Login</button>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#home">Home</li></a>
-                <li><a href="#product">Product</li></a>
-                <li><a href="#sign">SignUp</li></a>
-            </ul>
-        </nav>
-    </section>
+        </div>
+        <div class="div2">
+            <p>Catering Services</p>
+            <div id="container">
 
-    <section id="product">
-        <div class="div1"></div>
-        <div class="div2"></div>
-        <div class="div3"></div>
-        <div class="div4"></div>
-    </section>
+                <div class="prod">
+                    <img src="asparagus-2169305_1280.webp">
+                </div>
 
-    <section class="quote">
+                <div class="prod">
+                    <img src="bread-3488727_1280.webp">
+                </div>
+                <div class="prod">
+                    <img src="lobster-1615616_1280.jpg">
+                </div>
+                <div class="prod">
+                    <img src="waffle-4608843_1280.jpg">
+                </div>
+            </div>
 
-        <blockquote>
-
-        </blockquote>
-    </section>
-
-    <section id="sign">
-        <p>Sign Up for News</p>
-        <button>Sign Up</button>
-    </section>
-
-    <section class="footer"></section>
-</body>
+        </div>
+        <div class="div3">
+            <blockquote>“If you really want to make a friend, go to someone’s house and eat with him… The people who
+                give you their food give you their heart.”
+                – Cesar Chavez</blockquote>
+        </div>
+        <div class="div4">
+            <div id="container2">
+                <p class="para2">Sign up to receive offers and Menu Updates</p>
+                <button>Sign-Up</button>
+            </div>
+        </div>
+    </div>
+    <footer>Copyright Odin Project</footer>
 
 </html>
